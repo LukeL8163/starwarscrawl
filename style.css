@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.text {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	opacity: 0;
+	color: #e5b13a;
+	overflow-y: hidden;
+}
+.logo {
+	text-align: center;
+	position: relative;
+	top: 8vh;
+	margin-bottom: 300px;
+}
+.intro {
+	width: 100%;
+	height: 1000em;
+	position: absolute;
+	bottom: 0px;
+}
+body {
+	background-image: url(stars.png);
+	background-color: #000;
+	background-attachment: fixed;
+}
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 60px;
+}
+h3 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 30px;
+}
+p {
+	width: 680px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 50px;
+	text-align: justify;
+}
